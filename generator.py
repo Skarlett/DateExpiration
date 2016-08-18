@@ -51,5 +51,6 @@ class _calendar:
         year = __checkYear()
         month = str(__checkMonth())
         return month+'/'+str(__checkday())+'/'+year
-        
-print(_calander(monthsToExpire).generate())
+
+# Example...
+# print(_calander(monthsToExpire).generate())
